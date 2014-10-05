@@ -8,7 +8,7 @@ from sklearn.cross_validation import cross_val_score
 
 os.chdir("/Users/BradLi/Documents/Data Science/Kaggle/Titanic")
 writeFile = True
-model = "SVM"
+model = "RF"
 
 # Merging the training and test sets
 df_train = pd.read_csv("train.csv", header = 0)
