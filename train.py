@@ -6,7 +6,6 @@ from sklearn import svm, grid_search
 from sklearn.ensemble import RandomForestClassifier as RFC
 from sklearn.cross_validation import cross_val_score
 
-os.chdir("/Users/BradLi/Documents/Data Science/Kaggle/Titanic")
 writeFile = True
 model = "RF"
 
